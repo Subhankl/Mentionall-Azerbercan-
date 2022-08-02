@@ -1,9 +1,9 @@
 #################################
 # Yarasa Tagger Bot #
 #################################
-# Repo Sahibi - xtq067 
-# Telegram - t.me/YarasaMMC
-# Telegram - t.me/XTQ_BAKAVOY
+# Repo Sahibi - ZeyaSHTADO
+# Telegram - t.me/STFUZEYA
+# Telegram - t.me/STFUZEYA
 ##################################
 import heroku3
 import random
@@ -45,9 +45,9 @@ async def start(event):
                       [
                        Button.inline("🎛 əmrlər", data="komutlar")
                       ],
-                      [Button.url('🌱 Məni qrupa əlavə et', f'https://t.me/YarasaTaggerbot?startgroup=a')],
-                      [Button.url('📣 Support', f'https://t.me/BotssSupport'),
-                       Button.url('👨‍💻 Sahib', f'https://t.me/XTQ_BAKAVOY')]
+                      [Button.url('🌱 Məni qrupa əlavə et', f'https://t.me/TTKTaggerBot?=a')],
+                      [Button.url('📣 Support', f'https://t.me/TTK_teams'),
+                       Button.url('👨‍💻 Sahib', f'https://t.me/STFUZEYA')]
                     ),
                     link_preview=False)
 
@@ -64,9 +64,9 @@ async def handler(event):
                       [
                        Button.inline("🎛 əmrlər", data="komutlar")
                       ],
-                      [Button.url('🌱 Məni qrupa əlavə et', f'https://t.me/YarasaTaggerbot?startgroup=a')],
-                      [Button.url('📣 Support', f'https://t.me/BotssSupport'),
-                       Button.url('👨‍💻 Sahib', f'https://t.me/XTQ_BAKAVOY')]
+                      [Button.url('🌱 Məni qrupa əlavə et', f'https://t.me/TTKTaggerBot?=a')],
+                      [Button.url('📣 Support', f'https://t.me/TTK_teams'),
+                       Button.url('👨‍💻 Sahib', f'https://t.me/STFUZEYA')]
                     ),
                     link_preview=False)
 
@@ -110,8 +110,8 @@ async def mentionall(event):
     await client.send_message(event.chat_id, "❄️ User tağ eləmə başladı\n⏱️ İnterval - 2 saniye",
                     buttons=(
                       [
-                      Button.url('📣 Support', f'https://t.me/BotssSupport')
-                      ]
+                      Button.url('📣 Support', f'https://t.me/TTK_teams')
+                      
                     )
                   ) 
     gece_tag.append(event.chat_id)
@@ -124,7 +124,7 @@ async def mentionall(event):
         await event.respond("⛔ Tağ işləmi durduruldu",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/BotssSupport')
+                       Button.url('📣 Support', f'https://t.me/TTK_teams')
                       ]
                     )
                   )
@@ -169,7 +169,7 @@ async def mentionalladmin(event):
     await client.send_message(event.chat_id, "❄️ Admin tağ eləmək başladı\n⏱️ İnterval - 2 saniye",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/BotssSupport')
+                       Button.url('📣 Support', f'https://t.me/TTK_teams')
                       ]
                     )
                   ) 
@@ -183,7 +183,7 @@ async def mentionalladmin(event):
         await event.respond("⛔ Admin tağ eləmək durduruldu",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/BotssSupport')
+                       Button.url('📣 Support', f'https://t.me/TTK_teams')
                       ]
                     )
                   )
@@ -228,7 +228,7 @@ async def tektag(event):
     await client.send_message(event.chat_id, "❄️ Tək-Tək Tağ Başladı\n⏱️ İnterval - 2 saniye",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/BotssSupport')
+                       Button.url('📣 Support', f'https://t.me/TTK_teams')
                       ]
                     )
                   ) 
@@ -242,7 +242,7 @@ async def tektag(event):
         await event.respond("⛔ Tək Tək Tağ Prosesi Dayandırıldı",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/BotssSupport')
+                       Button.url('📣 Support', f'https://t.me/TTK_teams')
                       ]
                     )
                   )
@@ -300,7 +300,7 @@ async def etag(event):
     await client.send_message(event.chat_id, "❄️ Emoji tağ başlandı\n⏱️ İnterval - 2 saniye",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/BotssSupport')
+                       Button.url('📣 Support', f'https://t.me/TTK_teams')
                       ]
                     )
                   ) 
@@ -314,7 +314,7 @@ async def etag(event):
         await event.respond("⛔ Emoji tağ durduruldu",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/BotssSupport')
+                       Button.url('📣 Support', f'https://t.me/TTK_teams')
                       ]
                     )
                   )
@@ -390,7 +390,7 @@ async def stag(event):
     await client.send_message(event.chat_id, "❄️ Söz ile etiketleme başladı\n⏱️ İnterval - 2 saniye",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/BotssSupport')
+                       Button.url('📣 Support', f'https://t.me/TTK_teams')
                       ]
                     )
                   ) 
@@ -404,7 +404,7 @@ async def stag(event):
         await event.respond("⛔ Söz ile etiketleme işlemi durduruldu",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/BotssSupport')
+                       Button.url('📣 Support', f'https://t.me/TTK_teams')
                       ]
                     )
                   )
@@ -450,7 +450,7 @@ async def rtag(event):
     await client.send_message(event.chat_id, "❄️ Rəng ilə tağ başladı\n⏱️ İnterval - 2 saniye",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/BotssSupport')
+                       Button.url('📣 Support', f'https://t.me/TTK_teams')
                       ]
                     )
                   ) 
@@ -464,7 +464,7 @@ async def rtag(event):
         await event.respond("⛔ Rəng tağ durduruldu",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/BotssSupport')
+                       Button.url('📣 Support', f'https://t.me/TTK_teams')
                       ]
                     )
                   )
@@ -482,6 +482,6 @@ async def rtag(event):
 
 
 
-print(">> Bot çalışmaktadur merak etme 🚀 @BotssSupport bilgi alabilirsin <<")
+print(">> Bot çalışmaktadur merak etme 🚀 @TTK_teams bilgi alabilirsin <<")
 client.run_until_disconnected()
 run_until_disconnected()
