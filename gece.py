@@ -109,7 +109,7 @@ async def mentionall(event):
   if mode == "text_on_cmd":
     await client.send_message(event.chat_id, "❄️ User tağ eləmə başladı\n⏱️ İnterval - 2 saniye",
                     buttons=(
-                      [
+                      
                       Button.url('📣 Support', f'https://t.me/TTK_teams')
                       
                     )
