@@ -1,8 +1,8 @@
 #################################
 # Yarasa Tagger Bot #
 #################################
-# Repo Sahibi - ZeyaSHTADO
-# Telegram - t.me/STFUZEYA
+# Repo Sahibi - Dictator
+# Telegram - t.me/STFUZ
 # Telegram - t.me/STFUZEYA
 ##################################
 import heroku3
