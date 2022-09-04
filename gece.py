@@ -2,8 +2,8 @@
 # Yarasa Tagger Bot #
 #################################
 # Repo Sahibi - xtq067 
-# Telegram - t.me/YarasaMMC
-# Telegram - t.me/XTQ_BAKAVOY
+# Telegram - t.me/STFUZEYA
+# Telegram - t.me/STFUZEYA
 ##################################
 import heroku3
 import random
@@ -45,7 +45,7 @@ async def start(event):
                       [
                        Button.inline("🎛 əmrlər", data="komutlar")
                       ],
-                      [Button.url('🌱 Məni qrupa əlavə et', f'https://t.me/YarasaTaggerbot?startgroup=a')],
+                      [Button.url('🌱 Məni qrupa əlavə et', f'https://t.me/ZEYATaggerBot?startgroup=a')],
                       [Button.url('📣 Support', f'https://t.me/BotssSupport'),
                        Button.url('👨‍💻 Sahib', f'https://t.me/XTQ_BAKAVOY')]
                     ),
@@ -300,7 +300,7 @@ async def etag(event):
     await client.send_message(event.chat_id, "❄️ Emoji tağ başlandı\n⏱️ İnterval - 2 saniye",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/BotssSupport')
+                       Button.url('📣 Support', f'https://t.me/Dunyachat')
                       ]
                     )
                   ) 
